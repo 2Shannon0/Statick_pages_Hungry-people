@@ -1,0 +1,133 @@
+@font-face{
+    font-family: 'Banny-Round';
+    src: url('../fonts/Banny-Round.eot');
+    src: url('../fonts/Banny-Round.eot') format('eot'),
+    url('../fonts/Banny-Round.woff') format('woff'),
+    url('../fonts/Banny-Round.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+.main {
+    position: absolute;
+    background-color: black;
+    top: 20%;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+    max-width: 1300px;
+    height: 475px;
+}
+.img1 {
+    position:absolute;
+    top: 10%;
+    left: 11%;
+    width: 575px;
+    height: 575px;
+    z-index: 1;
+}
+.img2 {
+    position: absolute;
+    top: 21.5%;
+    left: -0.8%;
+    width: 429px;
+    height: 450px;
+    z-index: 2;
+}
+.img3 {
+    position:absolute;
+    top: 10%;
+    right: 11%;
+    width: 575px;
+    height: 575px;
+    z-index: 1;
+}
+.img4 {
+    position: absolute;
+    top: 21.5%;
+    right: 0.4%;
+    width: 429px;
+    height: 450px;
+    z-index: 2;
+}
+.wed {
+    color: white;
+    position: absolute;
+    top: 253px;
+    left:254px;
+    width: 447px;
+    height: 70px;
+    background-color:black;
+    padding-left: 30px;
+    line-height: 70px;
+    transform: rotate(90deg);
+    font-size: 24px;
+    font-family: 'Banny-Round';
+}
+.cor {
+    color: white;
+    position: absolute;
+    top: 253px;
+    right:253px;
+    width: 447px;
+    height: 70px;
+    background-color:black;
+    padding-left: 30px;
+    line-height: 70px;
+    transform: rotate(-90deg);
+    font-size: 24px;
+    font-family: 'Banny-Round';
+}
+.headder1 {
+    position:absolute;
+    margin: auto auto;
+    left: 0;
+    right: 0;
+    color: white;
+    Font-family: 'Open Sans', sans-serif;
+    Font-style: Bold;
+    Font-size: 12px;
+    Line-height: 100px;
+    text-align: center;
+    Letter-spacing: 10px;
+    width: 600px;
+    height: 100px;
+}
+.phone {
+    position:absolute;
+    margin: auto auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: rgba(255, 255, 255, 0.5);
+    Font-family: 'Open Sans', sans-serif;
+    Font-style: Bold;
+    Font-size: 12px;
+    Line-height: 100px;
+    text-align: center;
+    width: 600px;
+    height: 100px;
+}
+.vertical_left {
+    height: 98%;
+    width: 3px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0;
+    position: absolute;
+    left: 21%;
+}
+.vertical_right {
+    height: 98%;
+    width: 3px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0;
+    position: absolute;
+    right: 21%;
+}
+.vertical_center {
+    height: 98%;
+    width: 0px;
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    margin: 0;
+    position: absolute;
+    right: 50%;
+}
